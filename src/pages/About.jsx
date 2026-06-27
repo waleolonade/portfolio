@@ -147,7 +147,7 @@ export default function About() {
             <span className="badge-pill">Brand Profile</span>
             <h1 className="hero-title">Engineering the Future of Digital Experiences</h1>
             <p className="hero-desc">
-              Brainfeels Tech is a modern software development and digital solutions company focused on building scalable, high-performance web and mobile applications for businesses, startups, and institutions. We combine engineering excellence, user-centered design, and business strategy to deliver solutions that drive growth and efficiency.
+              {cms.company_story || 'Brainfeels Tech is a modern software development and digital solutions company focused on building scalable, high-performance web and mobile applications for businesses, startups, and institutions. We combine engineering excellence, user-centered design, and business strategy to deliver solutions that drive growth and efficiency.'}
             </p>
           </div>
         </section>
